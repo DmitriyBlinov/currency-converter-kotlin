@@ -60,41 +60,39 @@ class MainViewModel @Inject constructor(
     }
 
     private fun getRateForCurrency(currency: String, rates: Rates) = when (currency) {
-        "AMD" -> rates.AMD
-        "AUD" -> rates.AUD
-        "AZN" -> rates.AZN
-        "BGN" -> rates.BGN
-        "BRL" -> rates.BRL
-        "BYN" -> rates.BYN
-        "CAD" -> rates.CAD
-        "CHF" -> rates.CHF
-        "CNY" -> rates.CNY
-        "CZK" -> rates.CZK
-        "DKK" -> rates.DKK
-        "EUR" -> rates.EUR
-        "GBP" -> rates.GBP
-        "HKD" -> rates.HKD
-        "HUF" -> rates.HUF
-        "INR" -> rates.INR
-        "JPY" -> rates.JPY
-        "KGS" -> rates.KGS
-        "KRW" -> rates.KRW
-        "KZT" -> rates.KZT
-        "MDL" -> rates.MDL
-        "NOK" -> rates.NOK
-        "PLN" -> rates.PLN
-        "RON" -> rates.RON
-        "RUB" -> rates.RUB
-        "SEK" -> rates.SEK
-        "SGD" -> rates.SGD
-        "TJS" -> rates.TJS
-        "TMT" -> rates.TMT
-        "TRY" -> rates.TRY
-        "UAH" -> rates.UAH
-        "USD" -> rates.USD
-        "UZS" -> rates.UZS
-        "XDR" -> rates.XDR
-        "ZAR" -> rates.ZAR
+        "AUD" -> rates.aUD
+        "BGN" -> rates.bGN
+        "BRL" -> rates.bRL
+        "CAD" -> rates.cAD
+        "CHF" -> rates.cHF
+        "CNY" -> rates.cNY
+        "CZK" -> rates.cZK
+        "DKK" -> rates.dKK
+        "EUR" -> rates.eUR
+        "GBP" -> rates.gBP
+        "HKD" -> rates.hKD
+        "HRK" -> rates.hRK
+        "HUF" -> rates.hUF
+        "IDR" -> rates.iDR
+        "ILS" -> rates.iLS
+        "INR" -> rates.iNR
+        "ISK" -> rates.iSK
+        "JPY" -> rates.jPY
+        "KRW" -> rates.kRW
+        "MXN" -> rates.mXN
+        "MYR" -> rates.mYR
+        "NOK" -> rates.nOK
+        "NZD" -> rates.nZD
+        "PHP" -> rates.pHP
+        "PLN" -> rates.pLN
+        "RON" -> rates.rON
+        "RUB" -> rates.rUB
+        "SEK" -> rates.sEK
+        "SGD" -> rates.sGD
+        "THB" -> rates.tHB
+        "TRY" -> rates.tRY
+        "USD" -> rates.uSD
+        "ZAR" -> rates.zAR
 
         else -> null
     }

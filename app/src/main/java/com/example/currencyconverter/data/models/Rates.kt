@@ -1,77 +1,73 @@
 package com.example.currencyconverter.data.models
 
+
 import com.google.gson.annotations.SerializedName
 
 data class Rates(
-    @SerializedName("AMD")
-    val AMD: Double,
     @SerializedName("AUD")
-    val AUD: Double,
-    @SerializedName("AZN")
-    val AZN: Double,
+    val aUD: Double,
     @SerializedName("BGN")
-    val BGN: Double,
+    val bGN: Double,
     @SerializedName("BRL")
-    val BRL: Double,
-    @SerializedName("BYN")
-    val BYN: Double,
+    val bRL: Double,
     @SerializedName("CAD")
-    val CAD: Double,
+    val cAD: Double,
     @SerializedName("CHF")
-    val CHF: Double,
+    val cHF: Double,
     @SerializedName("CNY")
-    val CNY: Double,
+    val cNY: Double,
     @SerializedName("CZK")
-    val CZK: Double,
-    
+    val cZK: Double,
     @SerializedName("DKK")
-    val DKK: Double,
+    val dKK: Double,
     @SerializedName("EUR")
-    val EUR: Double,
+    val eUR: Double,
     @SerializedName("GBP")
-    val GBP: Double,
+    val gBP: Double,
     @SerializedName("HKD")
-    val HKD: Double,
+    val hKD: Double,
+    @SerializedName("HRK")
+    val hRK: Double,
     @SerializedName("HUF")
-    val HUF: Double,
+    val hUF: Double,
+    @SerializedName("IDR")
+    val iDR: Double,
+    @SerializedName("ILS")
+    val iLS: Double,
     @SerializedName("INR")
-    val INR: Double,
+    val iNR: Double,
+    @SerializedName("ISK")
+    val iSK: Double,
     @SerializedName("JPY")
-    val JPY: Double,
-    @SerializedName("KGS")
-    val KGS: Double,
+    val jPY: Double,
     @SerializedName("KRW")
-    val KRW: Double,
-    @SerializedName("KZT")
-    val KZT: Double,
-    @SerializedName("MDL")
-    val MDL: Double,
+    val kRW: Double,
+    @SerializedName("MXN")
+    val mXN: Double,
+    @SerializedName("MYR")
+    val mYR: Double,
     @SerializedName("NOK")
-    val NOK: Double,
+    val nOK: Double,
+    @SerializedName("NZD")
+    val nZD: Double,
+    @SerializedName("PHP")
+    val pHP: Double,
     @SerializedName("PLN")
-    val PLN: Double,
+    val pLN: Double,
     @SerializedName("RON")
-    val RON: Double,
+    val rON: Double,
     @SerializedName("RUB")
-    val RUB: Double,
+    val rUB: Double,
     @SerializedName("SEK")
-    val SEK: Double,
+    val sEK: Double,
     @SerializedName("SGD")
-    val SGD: Double,
-    @SerializedName("TJS")
-    val TJS: Double,
-    @SerializedName("TMT")
-    val TMT: Double,
+    val sGD: Double,
+    @SerializedName("THB")
+    val tHB: Double,
     @SerializedName("TRY")
-    val TRY: Double,
-    @SerializedName("UAH")
-    val UAH: Double,
+    val tRY: Double,
     @SerializedName("USD")
-    val USD: Double,
-    @SerializedName("UZS")
-    val UZS: Double,
-    @SerializedName("XDR")
-    val XDR: Double,
+    val uSD: Double,
     @SerializedName("ZAR")
-    val ZAR: Double
+    val zAR: Double
 )

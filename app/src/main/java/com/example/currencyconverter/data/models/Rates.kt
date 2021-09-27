@@ -23,7 +23,6 @@ data class Rates(
     val CNY: Double,
     @SerializedName("CZK")
     val CZK: Double,
-    
     @SerializedName("DKK")
     val DKK: Double,
     @SerializedName("EUR")
